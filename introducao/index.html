@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeira aula</title>
+  </head>
+  <body>
+    <h1>TÍTULO 1</h1>
+    <h2>TÍTULO 1</h2>
+    <h3>TÍTULO 1</h3>
+    <h4>TÍTULO 1</h4>
+    <h5>TÍTULO 1</h5>
+    <h6>TÍTULO 1</h6>
+
+    <p>
+      <b>Lorem ipsum</b>, dolor sit amet consectetur adipisicing elit. Reprehenderit
+      <Strong>enim minima vel,</Strong><hr> quaerat repudiandae cupiditate laboriosam et eaque,
+      itaque voluptate autem,<br> architecto iusto atque quas. Magni assumenda
+      molestiae qui expedita.
+    </p>
+    <p>PRIMEIRA PÁGINA HTML</p>
+    <hr>
+    <h1>Listas</h1>
+    <ul>
+
+        <li>Mamão</li>
+        <li>Açucar</li>
+        <li>Limão</li>
+        <li>Laranja</li>
+    </ul>
+    <!--Lista ordenada -->
+    -->
+    <ol>
+        <li>Fazer compras</li>
+        <li>Limpar a casa</li>
+        <li>Lavar o carro</li>
+        <li>Preparar aula pra semana</li>
+        <li>Dormir</li>
+    </ol>
+    <h1>Imagem</h1>
+    <img style="width: 100px;" src="C:\Users\Aluno Noite\Documents\Aulas_Java_Noturno\FrontNoturno\introducao\imagem\download.jpg" alt="American"/>
+    <a target="_blank" href="https://www.google.com/search?q=american+bully&rlz=1C1GCEA_enBR1055BR1055&tbm=isch&source=iu&ictx=1&vet=1&fir=3XRoPSbBr_49dM%252CQs_0BRH4G-K90M%252C%252Fg%252F1hc0g2b_g%253BAbElgj6BRfFeQM%252C6itb4oO77zfcRM%252C_%253BYQUEiq45cFC65M%252CofVzZgZsjG1ZkM%252C_%253BA7Xlm0Lx5XBArM%252CDpOGYJ4QI5I0cM%252C_%253BzoPwSudZeHOg4M%252Cy36Vi3y5KHcLOM%252C_%253BSWjmXw6PoawBFM%252C2XjpzRhxx8zuCM%252C_&usg=AI4_-kT9Vc1v7aYXIsm2_5ruqtfaVFYemA&sa=X&ved=2ahUKEwj784bPmef_AhXVDtQKHQg4C1IQ_B16BAhjEAE#imgrc=VMZp6ZTvEi267M">Vai para a página de imagens do google</a>
+  </body>
+  <h1>Tabela</h1>
+  <table>
+    <tr>
+    <th>Nome</th>
+      <th>Data de Nascimento</th>
+      <th>Telefone</th>
+      <th>Cidade</th>
+    </tr>
+    <tr>
+        <td>Augusto</td>
+        <td>25/11/1970</td>
+        <td>9999-9999</td>
+        <td>Brasília</td>
+    </tr>
+    <tr>
+        <td>José</td>
+        <td>25/11/1980</td>
+        <td>8888-8888</td>
+        <td>Goiás</td>
+    </tr>
+    </table>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30713.411199575774!2d-47.95106932568361!3d-15.79465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a8573c445db%3A0x3eecc7448f1a024b!2sSenai%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1687999689941!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <hr>
+ <h1>Formulário</h1>
+    <form>
+
+      <label for="nome">Nome:</label><br>
+
+      <input type="text" id="nome" name="primeiroNome" placeholder="Digite aqui seu nome: ">
+      <br>
+      <label for="sobrenome">Sobrenome:</label><br>
+      <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Digite aqui seu sobrenome: ">
+      <br>
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email" placeholder="seuemail@fake.com.br ">
+      <br>
+      <label for="numero">Número</label><br>
+      <input type="number" id="numero" name="numero" placeholder="Aqui só aceita números">
+      <br>
+      <label for="senha">Login:</label><br>
+      <input type="password" id="senha" name="senha" placeholder="digite aqui a sua senha:">
+      <br>
+      <label for="telefone">Telefone</label><br>
+      <input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="digite aqui seu telefone:">
+      <br>
+      <br>
+      <br>
+      <h3>Selecione um curso de seu interesse</h3>
+      <input type="radio" id="front" name="curso" values="front">
+      <label for="front">Front-end</label>    <br>
+      <input type="radio" id="back" name="curso" values="back">
+      <label for="front">Back-end</label>    <br>
+      <input type="radio" id="sql" name="curso" values="sql">
+      <label for="sql">Banco de Dados</label> <br>
+      <br>
+      <br>
+      <br>
+      <h3>Horários que tem disponibilidade</h3>
+      <br>
+<input type="checkbox" id="matutino" name="matutino" valor="matutino">
+      <label for="matutino">Turno matutino</label>
+      <br>
+
+<input type="checkbox" id="vespertino" name="vespertino" valor="vespertino">
+      <label for="vespertino">Turno vespertino</label>
+      <br>
+
+<input type="checkbox" id="noturno" name="noturno" valor="noturno">
+      <label for="noturno">Turno noturno</label>
+      <br>
+      <br>
+    <br>
+  <h3>Botão Enviar</h3>
+    <button type="submit" value="Enviar">Enviar</button> </button>
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    </html>
