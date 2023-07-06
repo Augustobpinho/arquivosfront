@@ -1,51 +1,29 @@
-.container{
+.tutor{
     width: 100%; 
  }
- .nav-bar{
-     background-color: hwb(224 13% 53%);
+.nav-bar{
+     background-color: hwb(0 0% 0% / 0);
      display: flex;
      flex-wrap: wrap;
-     align-items: center;
+     align-items:center;
      justify-content: space-between;
-     height: 150px;
+     height: 120px;
      width: 100%;
- }
- .nav-bar .logo img{
-     width: 150px;
-     display: flex;
-     align-items: center;
-     margin-left: 15px;
  }
  .nav-bar .links_paginas ul{
      display: flex;
      text-align: center;
      list-style-type: none;
  }
-.nav-bar ul li a{
- 
-    padding: 20px;
-    color: rgb(3, 3, 3);
-    text-decoration: none;
-}
 .nav-bar ul li a:hover{
      color: #000;
      font-size: 20px;
     text-shadow: 1px 5px 10px #000;
 }
-
-.banner {
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner img{
-    width: 100%;
-}
 .historia {
     width: 70%;
     margin: auto;
     display: block;
-
 }
 h2{
     text-align: center;
