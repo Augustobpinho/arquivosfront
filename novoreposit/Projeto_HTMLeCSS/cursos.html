@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Nossos Cursos</title>
+    </head>
+<body>
+    <header>
+        <div class="center">
+        <div class="logo"><img src="Imagens/logo.png" /></div><!--logo-->
+        <h1>Nossos Cursos</h1><br>
+        </div> <!--center-->
+    </header>
+    <table style="border: 1px solid" >
+        <tr><td><img src="Imagens\front.jpg"></td><td><h4 class="subtitulo">Front-End</h4><br><p class="texto">O que é Front End? Podemos classificar como a parte visual de um site, 
+            aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio do código uma interface gráfica e, normalmente, 
+            com as tecnologias base da Web: HTML, CSS e JavaScript.</p></td>
+        
+        <td><img src="Imagens\back.jpg"></td><td><h4 class="subtitulo">Back-End</h4><br><p class="texto">Desenvolvedores backend focam principalmente em como o website funciona. 
+            Eles escrevem códigos focados na funcionalidade e na lógica que faz o aplicativo web que eles trabalham funcionar, 
+            e a tecnologia que eles utilizam nunca é vista pelos usuários que acessam a aplicação web.</p></td></tr>
+        
+        
+        <tr></tr><td><img src="Imagens\bd.jpg"></td><td><h4 class="subtitulo">Banco de Dados</h4><br><p class="texto">Bancos de dados ou bases de dados são conjuntos de arquivos 
+            relacionados entre si, podendo conter registros sobre pessoas, lugares ou informações em geral. São coleções organizadas de dados que se relacionem ou não, 
+            de forma a armazenar informações.</p></td>
+
+        <td><img src="Imagens\manutencao.jpg"></td><td><h4 class="subtitulo">Manutenção de Computadores</h4><br><p class="texto">A manutenção relacionada a computadores é a ação, 
+            ou conjunto de ações, desencadeada visando solucionar um problema diagnosticado no computador, ou antever o problema por meio de análise de situações no 
+            funcionamento do computador, relacionado a software e/ou hardware.</p></td></tr>
+        
+    </table>
+    <br>
+    <br>
+    <form>
+    <h3>Informa abaixo o curso de seu interesse</h3>
+        <input type="radio" id="front" name="curso" values="front">
+        <label for="front">Front-end</label>    <br>
+        <input type="radio" id="back" name="curso" values="back">
+        <label for="front">Back-end</label>    <br>
+        <input type="radio" id="sql" name="curso" values="sql">
+        <label for="sql">Banco de Dados</label> <br>
+        <input type="radio" id="manutencao" name="curso" values="manutencao">
+        <label for="sql">Manutenção de Computadores</label> <br>
+ 
+        <h3>Informa seus dados para que possamos entrar em contato com você</h3>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="primeiroNome" placeholder="Digite aqui seu nome: ">
+        <br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="seuemail@fake.com.br ">
+        <br>
+        <label for="telefone">Telefone</label><br>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="digite aqui seu telefone:">
+        <br>
+        <br>
+        <h3>Horários que tem disponibilidade</h3>
+        <br>
+        <input type="checkbox" id="matutino" name="matutino" valor="matutino">
+        <label for="matutino">Turno matutino</label>
+        <br>
+        <input type="checkbox" id="vespertino" name="vespertino" valor="vespertino">
+        <label for="vespertino">Turno vespertino</label>
+        <br>
+        <input type="checkbox" id="noturno" name="noturno" valor="noturno">
+        <label for="noturno">Turno noturno</label>
+        <br>
+        <br>
+        <br>
+        <h3>Botão Enviar</h3>
+        <button type="submit" value="Enviar">Enviar</button> </button>     
+    </form>
+</body>
+</html>
+
+
+
